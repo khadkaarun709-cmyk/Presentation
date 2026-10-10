@@ -1,0 +1,223 @@
+/* Global Reset & Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0b132b, #1c2541, #3a506b);
+    color: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#main-title {
+    color: #ffd700;
+    font-size: 2.2rem;
+    margin-bottom: 8px;
+    letter-spacing: 0.5px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.alert-text {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
+    padding: 8px 18px;
+    border-radius: 20px;
+    display: inline-block;
+    font-size: 0.95rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Main Layout Grid */
+main {
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Card Containers */
+.card {
+    background: rgba(28, 37, 65, 0.85);
+    backdrop-filter: blur(10px);
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Profile Card */
+.profile-card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-img {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffd700;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+}
+
+.profile-card h2 {
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+
+.tagline {
+    font-weight: bold;
+    color: #ffd700;
+    font-size: 0.95rem;
+}
+
+.bio {
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    max-width: 600px;
+    line-height: 1.5;
+}
+
+/* Details List */
+.details-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(11, 19, 43, 0.7);
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: #e2e8f0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Franchise Container */
+.franchises-container {
+    display: flex;
+    justify-content: center;
+}
+
+.franchise-card {
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+/* Chennai Super Kings Custom Theme (Yellow/Gold Vibe) */
+.csk-card {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border: 2px solid #facc15;
+    box-shadow: 0 0 20px rgba(250, 204, 21, 0.15);
+}
+
+/* League Badge */
+.badge {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    border-radius: 6px;
+    text-transform: uppercase;
+}
+
+.ipl-badge {
+    background-color: #facc15;
+    color: #0f172a;
+}
+
+/* Franchise Header with Logo */
+.franchise-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+.team-logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.franchise-card h2 {
+    font-size: 1.25rem;
+    color: #ffffff;
+}
+
+.franchise-info {
+    font-size: 0.85rem;
+    color: #cbd5e1;
+    line-height: 1.4;
+}
+
+/* Player Spotlight Box */
+.player-spotlight {
+    background-color: rgba(11, 19, 43, 0.8);
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 5px;
+    border-left: 4px solid #facc15;
+}
+
+.player-spotlight h3 {
+    font-size: 0.8rem;
+    color: #facc15;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.player-name {
+    font-size: 1.05rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.player-role {
+    font-size: 0.8rem;
+    color: #94a3b8;
+    margin-bottom: 6px;
+    font-style: italic;
+}
+
+.player-desc {
+    font-size: 0.8rem;
+    color: #cbd5e1;
+    line-height: 1.4;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #94a3b8;
+    text-align: center;
+}
